@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hearts of Fun 4</title>
+    <style>
+        body {
+            background-color: #333;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #fff;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        .buttons {
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .disclaimer {
+            margin-top: 50px;
+            font-size: 12px;
+            color: #777;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Hearts of Fun 4</h1>
+
+    <div class="buttons">
+        <button><a href="https://github.com/notmyidea/heartsoffun4" target="_blank">GitHub</a></button>
+        <button><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3347688724" target="_blank">Steam Workshop</a></button>
+    </div>
+
+    <div class="disclaimer">
+        <p>This mod is not affiliated with Paradox Interactive or Hearts of Iron IV.</p>
+    </div>
+
+</body>
+</html>
